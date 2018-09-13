@@ -26,7 +26,7 @@
     -   `exploration`
 -   `autonomy`
     -   agents that don't tend to rely on the prior knowledge.
--   `task environment`
+###   `task environment`
     -   `PEAS`
         -   Performance, Environment, Actuators, Sensors
 -   `Fully observable` 
@@ -53,12 +53,36 @@
         -   agent's experience is divided into atomic episodes, meaning they are independent.
     -   `Sequential`
         -   the current decision could affect all future decisions.
--   `Static` and `Dynamic`
+-   `Static` vs `Dynamic`
+    -   `Dynamic`
+        -   Continuously asking agents what it wants to do
+        -   `Semidynamic`
+            -   ex: environment does not change with time but with scores.
     -   `Static`
-        -   
-    
-    
-    
+        -   doesn't ask agent, let agent decides what to do.
+-   `Discrete` vs `Continuous`
+    -   the way time is handled.
+    -   `Discrete`
+        -   ex: Input from digital cameras.
+    -   `Continuous`
+        -   ex: Taxi driving ( Speed, location change in real-time)
+-   `Known` vs `Unknown`
+    -   `Known`
+        -   all actions are given
+    -   `Unknown`
+        -   takes actions based on how it works
+### Agent programs
+    -    `Agent` = `Architecture` + `program`
+    -   `Simple reflex agents`
+    -   `Model-based reflex agents`
+    -   `Goal-based agents`
+    -   `Utility-based agents`
+
+-   `Simple reflex agents`
+    -   agents select actions based on the current percept, ignoring history
+    -   `condition-action rule` = if ... then ...
+-   `Model-based reflex agents`
+    -       
     
     
     
