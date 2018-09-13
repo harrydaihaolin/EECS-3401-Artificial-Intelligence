@@ -1,1 +1,78 @@
-# EECS-3401-Artificial-Intelligence
+# Artificial Intelligence: A modern approach
+
+## Chapter 1: (history)
+
+-   `rational agent`:
+    -   aims to achieve the best outcome
+## Chapter 2
+
+-   `agent`:
+    -   perceiving its `environment` through `sensors`  and acting upone the `actuators`
+-   `percept`:
+    -   input at any given instant
+    -   `percept sequence` is the history that agent perceived.
+-   `agent function`:
+    -   maps any percept sequence to an action
+    -   implemented by an `agent program`
+-   `Rationality`
+    -   performance measure
+    -   agent's prior knowledge
+    -   actions that agent can perform.
+    -   agent's percept sequence.
+-   `Omniscience`
+    -   omniscient agent knows the outcome and act accordingly, while rational agent doesn't
+    know the outcome in the first place
+    -   `information gathering`
+    -   `exploration`
+-   `autonomy`
+    -   agents that don't tend to rely on the prior knowledge.
+-   `task environment`
+    -   `PEAS`
+        -   Performance, Environment, Actuators, Sensors
+-   `Fully observable` 
+    -   sensors give access to complete state of environment
+    -   `Partially Observable`
+        -   ex: noisy & inaccurate sensors
+    -   `Unobservable`
+        -   no sensors at all
+-   `Single Agent` vs `Multiple Agent`
+    -   `Single Agent`  
+        -   ex: single player in game
+    -   `Multiple Agent`
+        -   same applies.
+-   `Deterministic` vs `Stochastic`
+    -   `Deterministic`
+        -   next state of the environment is completely determined by
+        the current state
+        -   `non-deterministic`
+    -   `Stochastic`
+        -   if `partially observable` then `Stochastic`
+        -   ex: we cannot predict the behavior exactly then we need stochastic process
+-   `Episodic` vs `Sequential`
+    -   `Episodic` 
+        -   agent's experience is divided into atomic episodes, meaning they are independent.
+    -   `Sequential`
+        -   the current decision could affect all future decisions.
+-   `Static` and `Dynamic`
+    -   `Static`
+        -   
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
