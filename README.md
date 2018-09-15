@@ -93,10 +93,24 @@
     -   `Learning element`
         -   making improvements
     -   `performance element`
-    -   
-    
-    
-    
+        -   selecting external actions 
+        -   performance based measure 
+    -   `Critic`
+        -   gives feedback to learning element
+    -   `Problem generator`
+        -   suggesting actions that will lead to new experiences.
+-   How components of agent program work
+    -   `Atomic`
+        -   each state is indivisible i.e. no internal structure
+    -   `Factored`
+        -   splited up each state into a fixed set of variables or attributed.
+    -   `Structured`
+        -   like object-oriented structure..
+        -   database, logic, probability model, knowledge-based learning.
+        
+## First-order Logic
+
+
     
     
     
