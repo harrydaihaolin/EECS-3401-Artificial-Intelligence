@@ -71,7 +71,7 @@
         -   all actions are given
     -   `Unknown`
         -   takes actions based on how it works
-### Agent programs
+### `Agent programs`
     -    `Agent` = `Architecture` + `program`
     -   `Simple reflex agents`
     -   `Model-based reflex agents`
@@ -82,8 +82,18 @@
     -   agents select actions based on the current percept, ignoring history
     -   `condition-action rule` = if ... then ...
 -   `Model-based reflex agents`
-    -       
-    
+    -   agents should maintain `internal state`
+-   `Goal-based agents`
+    -   search and planning -> find action sequences
+-   `Utility-based agents`
+    -   `Utility function`
+    -   Apply algorithms on it.
+    -   A more performanced based measure
+-   `Learning agents`
+    -   `Learning element`
+        -   making improvements
+    -   `performance element`
+    -   
     
     
     
