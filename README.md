@@ -4,7 +4,7 @@
 
 -   `rational agent`:
     -   aims to achieve the best outcome
-## Chapter 2
+## Chapter 2: Intelligent Agents
 
 -   `agent`:
     -   perceiving its `environment` through `sensors`  and acting upone the `actuators`
@@ -27,8 +27,10 @@
 -   `autonomy`
     -   agents that don't tend to rely on the prior knowledge.
 ###   `task environment`
-    -   `PEAS`
-        -   Performance, Environment, Actuators, Sensors
+    `PEAS`
+        Performance, Environment, Actuators, Sensors
+    
+    
 -   `Fully observable` 
     -   sensors give access to complete state of environment
     -   `Partially Observable`
@@ -71,12 +73,14 @@
         -   all actions are given
     -   `Unknown`
         -   takes actions based on how it works
-### `Agent programs`
-    -    `Agent` = `Architecture` + `program`
-    -   `Simple reflex agents`
-    -   `Model-based reflex agents`
-    -   `Goal-based agents`
-    -   `Utility-based agents`
+### `Agent programs
+        `Agent` = `Architecture` + `program
+        `Simple reflex agents`
+        `Model-based reflex agents`
+        `Goal-based agents`
+        `Utility-based agents`
+        `Learning agents`
+        `Components`
 
 -   `Simple reflex agents`
     -   agents select actions based on the current percept, ignoring history
@@ -108,8 +112,37 @@
         -   like object-oriented structure..
         -   database, logic, probability model, knowledge-based learning.
         
-## First-order Logic
+## Chapter 8: First order logic     
+    Knowledge Representation
+    Logical Representation
+    Theoretic Semantic
+    First Order Logic
+    Semantics
+    Models
 
+-   `Knowledge Representation`
+    -   demand of knowledge to understand the world
+-   `Logical Representation`
+    -   mathmatically precise
+    -   come with `syntax` , `semantics` and `proof theories`
+-   `Theoretic Semantic`
+    -   `objects`
+    -   `Properties/Predicates`  ( Distinguished subsets of objects )
+    -   `Relations` ( Distinguished sets of tuples of objects )
+    -   `Functions` (Distinguished functions mapping tuples of objects to objects )
+-   `First Order Logic`
+    -   Syntax and Semantics
+    -   `atom` p(t1, ... , tk)
+-   `Semantics`
+    -   language = L(F, P, V)
+        -   F -> set of function
+        -   P -> set of predicate and relation symbols
+        -   V -> infinite set of variables
+    -   `interpretation`
+        -   <D, Φ, Ψ, v>
+        -   D -> non-empty set
+        -   Φ -> Φ(f) -> (D<sup>2</sup> -> D) 
+        -   Ψ(p) -> (D)
 
     
     
