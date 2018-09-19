@@ -138,13 +138,28 @@
         -   F -> set of function
         -   P -> set of predicate and relation symbols
         -   V -> infinite set of variables
-    -   `interpretation`
+    -   `intuitions`
         -   <D, Φ, Ψ, v>
         -   D -> non-empty set
         -   Φ -> Φ(f) -> (D<sup>2</sup> -> D) 
-        -   Ψ(p) -> (D)
+        -   Ψ(p) -> (D<sup>k</sup> -> True/False)  
+        -   v[X/d] -> it maps the var X to the individual d.  v(Y) = v[X/d](Y)
+    -   `Semantics`
+        -   `Interpretation` 
+            -   I = <D, Φ, Ψ, v>
+            -   Constant c, Variable X
+            -   I(c) = Φ(c) ∈ D
+            -   I(X) = v(X) ∈ D
+            -   t = f(t<sub>1</sub>, ... , t<sub>k</sub>)
+            -> I(t) = Φ(f)(I(t<sub>1</sub>), ... , I(t<sub>k</sub>)) ∈ D
+            -   a = p(t<sub>1</sub>, ... , t<sub>k</sub> ) has truth value
+            -> I(a) = Ψ(p)(I(t<sub>1</sub>), ... , I(t<sub>k</sub>)) ∈ {True, False}
+        -   `Formulas`
+            - ∃X. f have true value I(∃X. f) = True if ∃ a d ∈ D s.t. I<sup>'</sup> (f) = True
+            - 
 
-    
+            
+
     
     
     
